@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    background-color: darkslateblue;
+    min-height: 100vh;
+    max-width: 100%;
+    display: grid;
+    /*place-content: center;*/
+    padding: 30px;
+}
+.App{
+   display: flex;
+   flex-direction: column;
+   gap: 8px; 
+}

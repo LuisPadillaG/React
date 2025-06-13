@@ -1,0 +1,50 @@
+/*tw = Twitter*/
+.tw-followCard{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 0.8rem;
+}
+.tw-followCard-header{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.tw-followCard-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.tw-followCard-infoUserName{
+    opacity: 0.6;
+}
+.tw-followCard-avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+}
+.tw-followCard-button{
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+    transition: 0.2s ease background-color, 0.5s ease scale;
+    border: 1px solid black;
+}
+.tw-followCard-button.is-following{
+    border: 1px solid red;
+    color: black;
+    transition: 0.2s ease background-color, 0.5s ease scale;
+}
+
+.tw-followCard-button:hover{
+    background-color: rgb(199, 199, 199);
+    scale: 0.95;
+}
+
+.tw-followCard-button.is-following:hover{
+    background-color: rgb(255, 0, 0);
+    scale: 0.95;
+}
